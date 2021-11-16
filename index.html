@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <!-- Bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <!-- Bootstratp icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <!-- Pace.js -->
+  <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@latest/pace-theme-default.min.css">
+  <link rel="stylesheet" href="css/pace.css">
+  <link href="css/templatemo-xtra-blog.css" rel="stylesheet">
+  <title>Home | Web Blog</title>
+</head>
+<body>
+	<header class="tm-header position-fixed" id="tm-header">
+    <div class="d-flex flex-column flex-shrink-0 p-3 side-bar">
+      <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+        <i class="bi bi-list fw-bold"></i>
+      </button>
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+        <img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="40" height="32" class="d-inline-block align-text-top me-2">
+        <span class="fs-4">Web Blog</span>
+      </a>
+      <hr>
+      <ul class="nav nav-pills flex-column mb-auto">
+        <li class="nav-item">
+          <a href="#" class="nav-link active" aria-current="page">
+            <i class="bi bi-house-door p-1"></i> 
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link link-dark">
+            <i class="bi bi-columns-gap p-1"></i>
+            About
+          </a>
+        </li>
+         <hr>
+        <!-- <li>
+          <a href="#" class="nav-link link-dark">
+            <i class="bi bi-table p-1"></i> 
+            Matematika
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link link-dark">
+            <i class="bi bi-columns-gap p-1"></i> 
+            IPAS
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link link-dark">
+            <i class="bi bi-book p-1"></i> 
+            Bhs.Indonesia
+          </a>
+        </li>
+         <li>
+          <a href="#" class="nav-link link-dark">
+            <i class="bi bi-mailbox p-1"></i> 
+            Bhs.Inggris
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link link-dark">
+            <i class="bi bi-table p-1"></i> 
+            DKK
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link link-dark">
+            <i class="bi bi-laptop p-1"></i> 
+            Informatika
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link link-dark">
+            <i class="bi bi-speedometer2 p-1"></i> 
+            Seni Budaya
+          </a>
+        </li>
+         <li>
+          <a href="#" class="nav-link link-dark">
+            <i class="bi bi-lamp p-1"></i> 
+            Bahasa Jawa
+          </a>
+        </li> -->
+      </ul>
+      <hr>
+      <div class="dropdown">
+        <a href="#" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle" id="dropdownUser_" data-bs-toggle="dropdown" aria-expanded="false">
+          <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle p-1">
+          Alief Aditya Nugraha
+        </a>
+        <ul class="dropdown-menu text-small shadow" aria-labelledby="dropdownUser_">
+          <li><a class="dropdown-item" href="#"><i class="bi bi-plus-circle pe-1"></i>Join Class</a></li>
+          <li><a class="dropdown-item" href="#"><i class="bi bi-gear pe-1"></i>Settings</a></li>
+          <li>
+            <a class="dropdown-item" href="#"><i class="bi bi-person-circle pe-1"></i>Profile</a>
+          </li>
+          <li><hr class="dropdown-divider"></li>
+          <li>
+            <a class="dropdown-item" href="#"><i class="bi bi-box-arrow-right pe-1"></i>Sign out</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main class="tm-main">
+    <div id="parallax1" class="parallax-slide">
+      <div class="parallax-text">
+        <h1 class="">Hello, Everyone</h1>
+        <p class="blockquote-footer text-light">
+          Let Today be the Start of Something New <strong>~</strong>
+        </p>
+      </div>
+    </div>
+    <div class="content-slide">
+      <ul class="nav nav-tabs pt-3 px-2 d-flex justify-content-center" id="myTab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="index1" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true"><i class="bi bi-columns-gap p-1"></i>Konten Blog</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="index2" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false"><i class="bi bi-journal-text p-1"></i>Terbaru</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="index3" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false"><i class="bi bi-megaphone p-1"></i>Writer</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="index1">
+          <div class="p-3">
+           <div class="container-card">
+            <a href="content/facebookmeta.html">
+              <div class="card">
+                <img src="img/content/FacebookMeta.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    Perusahaan Facebook mengubah namanya menjadi Meta
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="content/php.html">
+              <div class="card">
+                <img src="img/content/PHP.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    PHP Menjadi bahasa pemrogramman yang sering digunakkan untuk membuat web
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="content/tech.html">
+              <div class="card">
+                <img src="img/content/tech.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    Teknologi Dalam Kehidupan Sehari Hari
+                  </p>
+                </div>
+              </div>
+            </a>
+           </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="index2">
+          <p class="p-3">
+                       <div class="container-card">
+            <a href="content/facebookmeta.html">
+              <div class="card">
+                <img src="img/content/FacebookMeta.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    Perusahaan Facebook mengubah namanya menjadi Meta
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="content/php.html">
+              <div class="card">
+                <img src="img/content/PHP.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    PHP Menjadi bahasa pemrogramman yang sering digunakkan untuk membuat web
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="content/tech.html">
+              <div class="card">
+                <img src="img/content/tech.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">
+                    Teknologi Dalam Kehidupan Sehari Hari
+                  </p>
+                </div>
+              </div>
+            </a>
+           </div>
+          </p>
+        </div>
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="index3">
+          <p class="p-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti aliquam ex illo, quidem maiores incidunt esse magni. Eveniet sunt commodi quo provident, asperiores alias pariatur magnam reprehenderit hic nulla ad.
+          </p>
+        </div>
+      </div>
+      <footer class="py-2">
+        <p class="text-center text-muted">
+           <strong>@ Copyright</strong> Web Blog 2021 by <a href="https://github.com/aliefadityanugraha" target="_blank">Alief Aditya</a>
+         </p>
+      </footer>
+    </div>
+  </main>
+  <!-- Bootstratp js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/parallax.js"></script>
+  <script src="js/templatemo-script.js"></script>
+</body>
+</html>

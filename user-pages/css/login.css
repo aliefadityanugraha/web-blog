@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+body {
+  background-size:cover;
+  background-position:center top;
+  background-image: url('../../img/dg1.jpg');
+}
+.container-slice {
+  height:100vh;
+  width: 50%;
+  background-color:white;
+  position:fixed;
+}
+.container-slice .container form {
+  padding: 40px;
+}
+.container-slice .container form h3 {
+  font-family:'Fredoka One','Times New Roman', Times, serif ;
+}
+.container-tab {
+  padding:0px 0px 0px 50%;
+  margin-top: 40vh;
+  height:100vh;
+}
+.container-tab h1 {
+  font-family:'Fredoka One','Times New Roman', Times, serif ;
+}
+footer {
+  margin-top:37vh;
+}
+@media screen and (max-width:1178px) {
+  .container-slice {
+    height:100vh;
+    width:100%;
+  }
+  .container-slice .container form {
+    padding: 0px;
+  }
+}
